@@ -80,15 +80,17 @@ var dc, child, childH, childC, dcI, item, activeSlideH, topPos, newTop, currentI
 
 	    },
 
-	    cycleItems: function(){
+	    animateItems: function(){
 			item = child.eq(currentIndex);
 			child.removeClass('active_user')
 			item.addClass('active_user');
-			//activeSlideH = item.css('height');
 			activeSlideH = item.outerHeight();
 			topPos = dc.css('top');
 			newTop = parseInt(topPos) - parseInt(activeSlideH);
-			dc.css('top', newTop+'px');
+			//dc.css('top', newTop+'px');
+			dc.animate({
+				top: newTop+'px'
+			}, 200)
 	    },
 
 	    autoSlide : function(){
@@ -97,13 +99,18 @@ var dc, child, childH, childC, dcI, item, activeSlideH, topPos, newTop, currentI
 			  if (currentIndex > childHC - 1) {
 			    //currentIndex = 0;
 			    clearInterval(autoSlide);
+			    wahhao.guess.resetAndUpdateSlide();
 			  } else {
-			  	wahhao.guess.cycleItems();
+			  	wahhao.guess.animateItems();
 			  }
 			  console.log(currentIndex);
 			}, 3000);
+	    },
 
-
+	    resetAndUpdateSlide : function(){
+	    	currentIndex = 0;
+	    	//wahhao.guess.renderData(userData);
+	    	wahhao.guess.dataRequest();
 	    }
 
 	}
