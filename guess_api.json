@@ -1,0 +1,98 @@
+{
+    "status": true,
+    "response": {
+        "game": [
+            {
+                "record_id": 47025,
+                "user_id": 119373,
+                "guess_status": 3,
+                "guessed_price": 40,
+                "customer_type": 1,
+                "username": "tesyyy",
+                "image": ""
+            },
+            {
+                "record_id": 47023,
+                "user_id": 114965,
+                "guess_status": 3,
+                "guessed_price": 40,
+                "customer_type": 1,
+                "username": "usetname111",
+                "image": ""
+            },
+            {
+                "record_id": 47022,
+                "user_id": 114965,
+                "guess_status": 2,
+                "guessed_price": 19.99,
+                "customer_type": 1,
+                "username": "usetname111",
+                "image": ""
+            },
+            {
+                "record_id": 47021,
+                "user_id": 119369,
+                "guess_status": 3,
+                "guessed_price": 40,
+                "customer_type": 1,
+                "username": "geststs",
+                "image": "user_119369/profile/1563197550.jpg"
+            },
+            {
+                "record_id": 47019,
+                "user_id": 119361,
+                "guess_status": 3,
+                "guessed_price": 40,
+                "customer_type": 1,
+                "username": "hasvyavay",
+                "image": ""
+            },
+            {
+                "record_id": 47018,
+                "user_id": 119357,
+                "guess_status": 3,
+                "guessed_price": 40,
+                "customer_type": 1,
+                "username": "rvtech3",
+                "image": "user_119357/profile/1563189243.png"
+            },
+            {
+                "record_id": 47017,
+                "user_id": 119357,
+                "guess_status": 2,
+                "guessed_price": 32,
+                "customer_type": 1,
+                "username": "rvtech3",
+                "image": "user_119357/profile/1563189243.png"
+            },
+            {
+                "record_id": 47016,
+                "user_id": 119357,
+                "guess_status": 2,
+                "guessed_price": 19,
+                "customer_type": 1,
+                "username": "rvtech3",
+                "image": "user_119357/profile/1563189243.png"
+            },
+            {
+                "record_id": 47013,
+                "user_id": 119357,
+                "guess_status": 2,
+                "guessed_price": 19,
+                "customer_type": 1,
+                "username": "rvtech3",
+                "image": "user_119357/profile/1563189243.png"
+            },
+            {
+                "record_id": 47012,
+                "user_id": 119357,
+                "guess_status": 1,
+                "guessed_price": 50,
+                "customer_type": 1,
+                "username": "rvtech3",
+                "image": "user_119357/profile/1563189243.png"
+            }
+        ]
+    },
+    "response_timestamp": "2019-08-23 06:30:19"
+}
